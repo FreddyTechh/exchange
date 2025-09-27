@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Multi-Crypto Live Price Widget | Freddy Exchange</title>
+   <script src="https://kit.fontawesome.com/38ce96363c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/home3.css">
+</head>
+<body>
+  
+  <!-- Header with link -->
+  <header>
+    <a href="index.html"><i class="fa-brands fa-flutter fa-rotate-270 fa-2xl" style="color: #0254f7;" aria-hidden="true"></i>&nbsp;
+      Freddy <span>Exchange</span></a>
+  </header>
+
+  <!-- Centered widget -->
+  <div class="crypto-price-widget">
+    <div class="widget-title">Live Crypto Prices (USD)</div>
+
+    <!-- Bitcoin -->
+    <div class="crypto-container">
+      <div class="crypto-info">
+        <div class="crypto-logo btc-logo">₿</div>
+        <div class="crypto-name">Bitcoin</div>
+      </div>
+      <div class="price-info">
+        <div class="crypto-price" id="btc-price">Loading...</div>
+        <div class="price-change" id="btc-change">--</div>
+      </div>
+    </div>
+
+    <!-- Ethereum -->
+    <div class="crypto-container">
+      <div class="crypto-info">
+        <div class="crypto-logo eth-logo">Ξ</div>
+        <div class="crypto-name">Ethereum</div>
+      </div>
+      <div class="price-info">
+        <div class="crypto-price" id="eth-price">Loading...</div>
+        <div class="price-change" id="eth-change">--</div>
+      </div>
+    </div>
+
+    <!-- Solana -->
+    <div class="crypto-container">
+      <div class="crypto-info">
+        <div class="crypto-logo sol-logo">◎</div>
+        <div class="crypto-name">Solana</div>
+      </div>
+      <div class="price-info">
+        <div class="crypto-price" id="sol-price">Loading...</div>
+        <div class="price-change" id="sol-change">--</div>
+      </div>
+    </div>
+
+    <!-- Ripple -->
+    <div class="crypto-container">
+      <div class="crypto-info">
+        <div class="crypto-logo xrp-logo">XRP</div>
+        <div class="crypto-name">Ripple</div>
+      </div>
+      <div class="price-info">
+        <div class="crypto-price" id="xrp-price">Loading...</div>
+        <div class="price-change" id="xrp-change">--</div>
+      </div>
+    </div>
+
+    <div class="last-updated" id="update-time">Updated: --:--</div>
+    <div class="api-status" id="api-status">API: Checking...</div>
+  </div>
+
+<script src="./js/home3.js"></script>
+</body>
+</html>
